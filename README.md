@@ -1,57 +1,34 @@
-# 🚀 PunchFast
+# PunchFast
 
-## 📌 Overview
+PunchFast is a small web application prototype I built to practice backend development and database integration using Flask.
 
-PunchFast is a web-based prototype reward system developed to explore backend web application development and database integration.
-
-Originally created during a hackathon, this project has been maintained as a personal portfolio demonstration of early-stage software development skills.
+This project started as a hackathon idea and later became a personal portfolio project where I experimented with basic reward system logic and web application structure.
 
 ---
 
-## 💡 Purpose
+## What This Project Does
 
-This project was built to practice:
+PunchFast is a simple reward tracking prototype designed to simulate how small businesses could track customer engagement points.
 
-- Backend web development using Flask
-- Basic database interactions
-- Prototype reward tracking logic
-- Full-stack application structure
-
-PunchFast is a development prototype and not a production system.
+This is not a production system. It is a learning project focused on understanding how web applications connect frontend templates with backend logic and databases.
 
 ---
 
-## 🛠 Technologies Used
+## Technologies Used
 
-- Python
-- Flask
-- Peewee ORM
-- SQLite Database
-- HTML Templates
+- Python  
+- Flask  
+- Peewee ORM  
+- SQLite Database  
+- HTML Templates  
 - Basic JavaScript
 
 ---
 
-## ⚙️ Features
+## Project Structure
 
-- Web-based prototype application
-- Database-backed reward tracking logic
-- Backend server integration
-- Template-based frontend rendering
-
----
-
-## 📂 Project Structure
-
-- `app.py` → Main Flask backend application  
-- `templates/` → Frontend HTML pages  
-- `data.db` → SQLite database file  
+- app.py → Main backend server logic  
+- templates/ → Frontend HTML pages  
+- data.db → Local SQLite database  
 
 ---
-
-## 🚀 Running the Project Locally
-
-### 1. Install Dependencies
-
-```bash
-pip install flask peewee geopy
